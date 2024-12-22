@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'AI4TB-BE'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C9A249E4ABC246F9B73AF92888241C2C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AF4ED18D0066412A9B7FF28AAC54EA36 }}
