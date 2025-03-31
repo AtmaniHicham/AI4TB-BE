@@ -7,7 +7,9 @@ import cv2
 from pdf2image import convert_from_bytes
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "https://agreeable-wave-0c91d1a03.4.azurestaticapps.net"}})
+#CORS(app, resources={r"/*": {"origins": "https://agreeable-wave-0c91d1a03.4.azurestaticapps.net"}})
+#https://ai4tb-be-gnangzcmfhbcbrhf.francecentral-01.azurewebsites.net/
+CORS(app, resources={r"/*": {"origins": "https://ai4tb-be-gnangzcmfhbcbrhf.francecentral-01.azurewebsites.net"}})
 
 model_weights = 'last.pt'
 model = YOLO(model_weights)
